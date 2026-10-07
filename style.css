@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,6 @@ body {
     background: linear-gradient(#111, #172b4d);
     color: #333;
 }
-/* Cabeçalho */
 header {
     background: #b11313;
     color: white;
@@ -18,7 +17,6 @@ header {
 header h1 {
     margin-bottom: 12px;
 }
-/* Menu */
 nav ul {
     list-style: none;
 }
@@ -36,7 +34,6 @@ nav ul li a:hover {
     color: #5b9aff;
     cursor: pointer;
 }
-/* Seções */
 section {
     margin: 16px;
     padding: 24px;
@@ -48,7 +45,6 @@ section h2 {
     color: #b11313;
     margin-bottom: 16px;
 }
-/* Apresentação */
 .inicio {
     text-align: center;
     background: #172b4d;
@@ -64,12 +60,10 @@ section h2 {
 }
 .inicio p {
     margin: 8px;
-}
-/* Trailer */
+}S
 #trailer {
     text-align: center;
 }
-/* Elenco */
 .cards {
     display: flex;
     justify-content: center;
@@ -100,7 +94,6 @@ section h2 {
 .card:hover {
     transform: scale(1.05);
 }
-/* Galeria */
 .imagens {
     display: flex;
     justify-content: center;
@@ -116,14 +109,12 @@ section h2 {
 .imagens img:hover {
     transform: scale(1.05);
 }
-/* Curiosidades */
 .curiosidades p {
     padding: 10px;
     margin: 8px 0;
     background: #f4f4f4;
     border-radius: 8px;
 }
-/* Contato */
 .texto-contato {
     margin-bottom: 15px;
 }
@@ -153,7 +144,6 @@ button {
 button:hover {
     background: #7d0c0c;
 }
-/* Rodapé */
 footer {
     background: #111;
     color: white;
